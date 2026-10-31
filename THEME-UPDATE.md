@@ -1,0 +1,7 @@
+# English theme update
+
+Install `guru-bhai-khaiwal.zip` through **Appearance → Themes → Add New → Upload Theme**. Activate the existing `scheduled-results-manager.zip` plugin separately (plugin archive is unchanged). The redesign uses WordPress APIs and lightweight local CSS/vanilla JavaScript; no external UI library or CDN is required.
+
+In **Appearance → English demo import**, select **Create missing English pages**. This creates Home, Games, About, Blog, FAQ, Results, Result charts, Contact, Today, Yesterday, individual game charts, and three articles. The importer is repeatable and **does not replace existing pages, posts, options, menus or results**. For an already-imported Hindi site, manually translate existing content or import into a fresh WordPress install; changing defaults cannot safely overwrite editorial content. Existing theme options likewise retain their saved text until edited under Guru Bhai Khaiwal settings.
+
+ACF PRO is required for visual theme options and editable page sections. The results plugin supplies its existing shortcodes; no plugin code, game schedules or historical results were changed. Review and publish historical imports separately in the plugin admin. Set **Settings → General → Site Language** to English for WordPress core UI and date formatting. This theme cannot translate plugin-controlled game names or previously saved plugin content without editing the plugin/database.
